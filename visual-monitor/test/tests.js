@@ -64,7 +64,10 @@ describe('Visual monitor testing', function() {
       .pause(10000)
       .webdrivercss(testName + '.homepage', {
         name: '1',
-        exclude: [],
+        exclude:
+          [
+            '.fb_like',
+          ],
         remove: [],
         hide:
           [
